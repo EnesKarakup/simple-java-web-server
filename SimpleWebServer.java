@@ -1,7 +1,7 @@
 import java.io.*;
 import java.net.*;
 
-public class SimpleWebServer { //Basit bir web sunucusu
+public class SimpleWebServer {
 
     public static void main(String[] args) throws IOException {
 
