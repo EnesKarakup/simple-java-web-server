@@ -15,19 +15,18 @@ Bu proje, Java'nın temel `Socket` ve `ServerSocket` sınıflarını kullanarak 
 <img width="1078" height="806" alt="diagram" src="https://github.com/user-attachments/assets/83ca1e9e-cdf4-40cf-ab0b-118137ace8d7" />
 
 
-### Adım Adım İşleyiş
+### Akış Açıklaması
 
-Sunucunun bir isteği karşılama süreci aşağıdaki adımlardan oluşur:
-
-1.  **Dinleme:** `ServerSocket`, belirtilen `1989` portu üzerinden gelebilecek bağlantı isteklerini sürekli olarak dinler.
-2.  **Bağlantı Kabulü:** Bir web tarayıcısından `HTTP GET` isteği geldiğinde, `ServerSocket` bu bağlantıyı `accept()` metodu ile kabul eder ve istemci ile iletişim kurmak için özel bir `Socket` nesnesi oluşturur.
-3.  **İstek İşleme:** Oluşturulan `Socket` üzerinden aşağıdaki işlemler yürütülür:
-    -   `BufferedReader` kullanılarak istemcinin isteği okunur.
-    -   İstemciye gönderilecek olan statik HTML içeriği ve HTTP başlıkları (`200 OK`, `Content-Type` vb.) hazırlanır.
-    -   `PrintWriter` aracılığıyla hazırlanan yanıt istemciye gönderilir.
-    -   İşlem tamamlandıktan sonra `Socket` bağlantısı kapatılır.
-4.  **Tekrarlama:** Sunucu, `while(true)` döngüsü sayesinde kapanmaz ve 1. adıma geri dönerek yeni gelecek istekleri dinlemeye devam eder.
-5.  **Görselleştirme:** Tarayıcı, sunucudan gelen HTML yanıtını işler (render eder) ve sayfayı kullanıcıya gösterir.
+1. **Web Tarayıcı** → HTTP GET isteği gönderir (`localhost:1989`)
+2. **ServerSocket** → Port 1989'dan gelen bağlantıyı kabul eder (`accept()`)
+3. **İstek İşleme**:
+   - BufferedReader ile istek satırı okunur
+   - HTML içeriği hazırlanır
+   - HTTP 200 OK yanıtı oluşturulur
+   - PrintWriter ile içerik gönderilir
+   - Socket bağlantısı kapatılır
+4. **Döngü** → `while(true)` ile bir sonraki istekleri bekler
+5. **Çıktı** → Tarayıcı HTML'i render eder ve kullanıcıya gösterir
 
 ## Özellikler
 
