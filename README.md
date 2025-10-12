@@ -8,7 +8,8 @@ Bu proje, Java'nın temel `Socket` ve `ServerSocket` sınıflarını kullanarak 
 
 ##  Mimari ve Çalışma Yapısı
 
-![Mimari Diyagram](<img width="1078" height="806" alt="diagram" src="https://github.com/user-attachments/assets/11d8d2c9-7ff5-442b-9f31-4ff9d7bca607" />)
+<img width="1078" height="806" alt="diagram" src="https://github.com/user-attachments/assets/83ca1e9e-cdf4-40cf-ab0b-118137ace8d7" />
+
 
 ### Akış Açıklaması
 
