@@ -119,6 +119,8 @@ Sayfa aşağıdaki stil özelliklerini içerir:
 - **Başlık renkleri**: Lacivert tonları (#003366, #006699)
 - **Merkezi hizalama** ve responsive tasarım
 
+> **Not**: Tüm stil özellikleri kod içinde kolayca özelleştirilebilir.
+
 ## 📝 Notlar
 
 - Bu sunucu eğitim amaçlıdır ve production ortamında kullanılmamalıdır
