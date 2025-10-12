@@ -1,4 +1,8 @@
 # Simple Java Web Server
+![Java](https://img.shields.io/badge/Java-15+-ED8B00?logo=openjdk&logoColor=white)
+![Socket Programming](https://img.shields.io/badge/Socket-Programming-blue.svg)
+![Dependencies](https://img.shields.io/badge/dependencies-zero-success.svg)
+![Port](https://img.shields.io/badge/port-1989-lightblue.svg)
 
 Yalnızca Java ve Socket programlama kullanılarak geliştirilmiş, herhangi bir 3. parti bileşen içermeyen basit bir web sunucusu.
 
