@@ -26,11 +26,11 @@ Bu proje, Java'nın temel `Socket` ve `ServerSocket` sınıflarını kullanarak 
 
 ##  Özellikler
 
-- ✅ Saf Java implementasyonu (zero dependency)
-- ✅ Socket programlama ile HTTP protokolü desteği
-- ✅ 1989 portunda çalışan web sunucusu
-- ✅ HTML/CSS ile biçimlendirilmiş kişisel bilgi sayfası
-- ✅ Responsive ve modern tasarım
+-  Saf Java implementasyonu (zero dependency)
+-  Socket programlama ile HTTP protokolü desteği
+-  1989 portunda çalışan web sunucusu
+-  HTML/CSS ile biçimlendirilmiş kişisel bilgi sayfası
+-  Responsive ve modern tasarım
 
 ##  Kurulum ve Çalıştırma
 
