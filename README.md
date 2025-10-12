@@ -10,6 +10,14 @@ Yalnızca Java ve Socket programlama kullanılarak geliştirilmiş, herhangi bir
 
 Bu proje, Java'nın temel `Socket` ve `ServerSocket` sınıflarını kullanarak sıfırdan yazılmış minimal bir HTTP web sunucusudur. Herhangi bir framework veya kütüphane kullanılmadan, sadece Java Standard Library ile geliştirilmiştir.
 
+##  Özellikler
+
+-  Saf Java implementasyonu (zero dependency)
+-  Socket programlama ile HTTP protokolü desteği
+-  1989 portunda çalışan web sunucusu
+-  HTML/CSS ile biçimlendirilmiş kişisel bilgi sayfası
+-  Responsive ve modern tasarım
+
 ##  Mimari ve Çalışma Yapısı
 
 <img width="1078" height="806" alt="diagram" src="https://github.com/user-attachments/assets/83ca1e9e-cdf4-40cf-ab0b-118137ace8d7" />
@@ -27,16 +35,6 @@ Bu proje, Java'nın temel `Socket` ve `ServerSocket` sınıflarını kullanarak 
    - Socket bağlantısı kapatılır
 4. **Döngü** → `while(true)` ile bir sonraki istekleri bekler
 5. **Çıktı** → Tarayıcı HTML'i render eder ve kullanıcıya gösterir
-
-## Özellikler
-
-##  Özellikler
-
--  Saf Java implementasyonu (zero dependency)
--  Socket programlama ile HTTP protokolü desteği
--  1989 portunda çalışan web sunucusu
--  HTML/CSS ile biçimlendirilmiş kişisel bilgi sayfası
--  Responsive ve modern tasarım
 
 ##  Kurulum ve Çalıştırma
 
