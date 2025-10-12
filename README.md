@@ -6,9 +6,9 @@ Yalnızca Java ve Socket programlama kullanılarak geliştirilmiş, herhangi bir
 
 Bu proje, Java'nın temel `Socket` ve `ServerSocket` sınıflarını kullanarak sıfırdan yazılmış minimal bir HTTP web sunucusudur. Herhangi bir framework veya kütüphane kullanılmadan, sadece Java Standard Library ile geliştirilmiştir.
 
-## 📊 Mimari ve Çalışma Yapısı
+##  Mimari ve Çalışma Yapısı
 
-![Mimari Diyagram](<img width="1078" height="806" alt="Ekran görüntüsü 2025-10-12 232815" src="https://github.com/user-attachments/assets/74c52e89-a926-44ac-9cc6-e3a9c51e380d" />)
+![Mimari Diyagram](<img width="1078" height="806" alt="diagram" src="https://github.com/user-attachments/assets/11d8d2c9-7ff5-442b-9f31-4ff9d7bca607" />)
 
 ### Akış Açıklaması
 
