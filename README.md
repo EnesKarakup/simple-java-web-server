@@ -7,14 +7,14 @@
 
 Yalnızca Java ve Socket programlama kullanılarak geliştirilmiş, hiçbir 3. parti bileşen içermeyen minimal bir HTTP web sunucusu.
 
-## 🎯 Özellikler
+## Özellikler
 
 - Saf Java implementasyonu - zero dependency
 - Socket programlama ile HTTP desteği
 - 1989 portunda çalışır
 - HTML/CSS ile biçimlendirilmiş kişisel sayfa
 
-## 🚀 Kurulum ve Çalıştırma
+## Kurulum ve Çalıştırma
 
 ```bash
 # Projeyi klonlayın
@@ -28,19 +28,19 @@ java SimpleWebServer
 
 Tarayıcınızda `http://localhost:1989` adresini açın.
 
-## 📊 Mimari
+## Mimari
 
 <img width="1078" height="806" alt="diagram" src="https://github.com/user-attachments/assets/83ca1e9e-cdf4-40cf-ab0b-118137ace8d7" />
 
 **Çalışma prensibi:** ServerSocket ile 1989 portunu dinler → Client bağlantısını kabul eder → HTTP isteğini okur → HTML yanıtı gönderir → Döngü devam eder.
 
-## ⚙️ Teknik Detaylar
+## Teknik Detaylar
 
 - **Java 15+** gerektirir (Text Blocks için)
 - `ServerSocket`, `Socket`, `BufferedReader`, `PrintWriter` kullanır
 - Tek dosya, tek thread - eğitim amaçlıdır
 
-## 🎨 Özelleştirme
+## Özelleştirme
 
 Kod içindeki HTML bloğunda kişisel bilgilerinizi güncelleyin:
 
