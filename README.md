@@ -120,15 +120,3 @@ Sayfa aşağıdaki stil özelliklerini içerir:
 - **Merkezi hizalama** ve responsive tasarım
 
 > **Not**: Tüm stil özellikleri kod içinde kolayca özelleştirilebilir.
-
-## 📝 Notlar
-
-- Bu sunucu eğitim amaçlıdır ve production ortamında kullanılmamalıdır
-- Aynı anda sadece tek bir istek işler (multi-threading yok)
-- Sadece GET isteklerini destekler
-- Güvenlik önlemleri içermez
-- Statik dosya servisi yoktur
-
-## 📄 Lisans
-
-Bu proje eğitim amaçlı geliştirilmiştir ve serbestçe kullanılabilir.
