@@ -16,6 +16,12 @@ Yalnızca Java ve Socket programlama kullanılarak geliştirilmiş, hiçbir 3. p
 
 ## Kurulum ve Çalıştırma
 
+### Gereksinimler
+- Java 15 veya üzeri (Text Blocks özelliği için)
+- JDK kurulu olmalıdır
+
+### Adımlar
+
 ```bash
 # Projeyi klonlayın
 git clone <repo-url>
@@ -40,6 +46,12 @@ Tarayıcınızda `http://localhost:1989` adresini açın.
 - `ServerSocket`, `Socket`, `BufferedReader`, `PrintWriter` kullanır
 - Tek dosya, tek thread - eğitim amaçlıdır
 
+### Kullanılan Java Sınıfları
+- `ServerSocket` - Port dinleme ve bağlantı kabul
+- `Socket` - Client ile iletişim
+- `BufferedReader` - HTTP isteklerini okuma
+- `PrintWriter` - HTTP yanıtı gönderme
+
 ## Özelleştirme
 
 Kod içindeki HTML bloğunda kişisel bilgilerinizi güncelleyin:
@@ -51,7 +63,9 @@ Kod içindeki HTML bloğunda kişisel bilgilerinizi güncelleyin:
 ```
 
 Stil özellikleri `<style>` etiketi içinden değiştirilebilir.
-
+- Arka plan rengi: `#f2f2f2`
+- Başlık renkleri: `#003366`, `#006699`
+- Font: Arial, Helvetica, sans-serif
 ---
 
 **Not:** Bu proje eğitim amaçlıdır ve production ortamı için uygun değildir.
